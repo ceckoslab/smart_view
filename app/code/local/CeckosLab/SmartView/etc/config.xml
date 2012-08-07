@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<CeckosLab_SmartView>
+			<version>1.0.0</version>
+		</CeckosLab_SmartView>
+	</modules>
+	<global>
+		<helpers>
+			<smartview>
+				<class>CeckosLab_SmartView_Helper</class>
+			</smartview>
+		</helpers>
+	</global>
+</config>
