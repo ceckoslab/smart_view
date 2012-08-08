@@ -12,7 +12,6 @@ class CeckosLab_SmartView_Helper_Data extends Mage_Core_Helper_Abstract
             $product_ids [$_products->getProductId()] = $_products->getQty();
         }
         $this->_cartProductIds = $product_ids;
-        Mage::log($product_ids);
     }
     
     public function isInCart($product) {
